@@ -1,5 +1,6 @@
 # AT-27-Multi
 Сычев Тимофей
+IO-bound. Проверяем ссылки на страницах Википедии
 Синхроонная обработка ссылок заняла 1453 секунды  
 ![image](https://user-images.githubusercontent.com/72296553/143772853-5d352528-5d56-4ac7-8c2a-72bd8deeec74.png)
 Асинхронная обработка при 5 воркерах 285 секунд. Оперативная память была загружена почти на максимум, процессор не более чем на 20%, нагрузка на сеть была не самая значительная
@@ -13,4 +14,6 @@
 ![image](https://user-images.githubusercontent.com/72296553/143775377-2e740a62-a502-4a6f-af36-5f572ac9a872.png)
 ![image](https://user-images.githubusercontent.com/72296553/143775388-9503664f-b82b-47ef-b545-7c9fce5c292a.png)
 ![image](https://user-images.githubusercontent.com/72296553/143775400-566e0d25-c95a-4edd-814f-52f9d5c6f8ea.png)
-
+CPU-bound. Генерируем монетки
+На одном ядре генерации одной монеты заняла 14 секунд
+![image](https://user-images.githubusercontent.com/72296553/143775873-9b93e2a4-2b01-4544-9210-9580a9643bd9.png)
